@@ -4,32 +4,31 @@ Kho lưu trữ và phát hành chính thức các phiên bản cài đặt của
 
 ---
 
-## 📥 Tải về phiên bản mới nhất: v1.1.0
+## 📥 Tải về phiên bản mới nhất: v1.1.3
 
-| Phiên bản | Định dạng | Dung lượng | Tải trực tiếp |
-| :--- | :--- | :--- | :--- |
-| **Bản Cài Đặt (Setup)** | `.exe` | ~79 MB | [Tải xuống trong mục Releases](https://github.com/hachikovn/xTrayPlayer-Releases/releases/latest) |
-| **Bản Di Động (Portable)** | `.exe` | ~79 MB | [Tải xuống trong mục Releases](https://github.com/hachikovn/xTrayPlayer-Releases/releases/latest) |
-| **Gói Đầy Đủ (Full Package)** | `.zip` | ~77 MB | [Tải xuống trong mục Releases](https://github.com/hachikovn/xTrayPlayer-Releases/releases/latest) |
+| Phiên bản | Định dạng | Tải trực tiếp |
+| :--- | :--- | :--- |
+| **Bản Di Động (Portable)** | .exe | [Tải xuống trong mục Releases](https://github.com/hachikovn/xTrayPlayer-Releases/releases/latest) |
+| **Gói Đầy Đủ (Full Package)** | .zip | [Tải xuống trong mục Releases](https://github.com/hachikovn/xTrayPlayer-Releases/releases/latest) |
 
 ---
 
-## ✨ Có gì mới trong bản v1.1.0?
+## ✨ Có gì mới trong bản v1.1.3?
 
-* 🛡️ **Tích hợp uBlock Origin chính thức:** Chặn hoàn toàn quảng cáo YouTube từ tầng mạng, không còn lo bị YouTube quét hay hiện bảng cảnh báo Adblock.
-* 🔄 **Tự động cập nhật uBlock Origin:** Ứng dụng tự động kiểm tra và tải các bản nâng cấp mới nhất của uBlock Origin từ GitHub.
-* 🚀 **Tính năng Tự Động Cập Nhật (Auto-Update):** Tự động phát hiện khi có phiên bản mới, hiển thị cửa sổ thông báo trực quan kèm danh sách tính năng mới (Changelog) và hỗ trợ cập nhật nhanh chỉ với 1 click.
-* 🧹 **Gỡ cờ vi phạm YouTube:** Bổ sung tính năng xóa sạch Cookie/Cache phiên YouTube trong phần Cài đặt.
-* 🎚️ **Bảo toàn Legacy Mode:** Giữ nguyên code tua nhanh/bỏ qua quảng cáo cũ làm tùy chọn dự phòng trong Cài đặt.
-* ⚡ **Tối ưu hóa hiệu năng & độ trễ phát nhạc:** Nâng cao độ mượt mà khi tương tác với thanh Taskbar và cửa sổ PiP.
+* 🌐 **Hỗ trợ 10 ngôn ngữ toàn diện:** Tiếng Việt, Tiếng Anh, Tiếng Trung, Tiếng Nhật, Tiếng Hàn, Tiếng Tây Ban Nha, Tiếng Bồ Đào Nha, Tiếng Nga, Tiếng Đức, Tiếng Pháp chuyển đổi tức thì không cần khởi động lại.
+* ⌨️ **Gán phím tắt tùy chỉnh (Custom Global Hotkeys):** Cho phép người dùng tự do cấu hình phím tắt toàn hệ thống cho mọi thao tác (Play/Pause, Tắt tiếng, Chuyển bài, Tăng/Giảm âm lượng, Bật/Tắt PiP, Ẩn/Hiện widget).
+* 📐 **Tùy chỉnh độ rộng widget & Chế độ Mini Mode:** Cho phép co giãn chiều rộng thanh phát nhạc từ 245px đến 650px, cùng nút chuyển đổi nhanh chế độ siêu nhỏ gọn (Mini Mode) tiết kiệm diện tích Taskbar.
+* 📺 **Giao diện PiP thông minh:** Tối ưu vị trí mặc định nằm ngay phía trên thanh Taskbar với chiều rộng đồng bộ, tự động giữ vị trí khi ẩn/hiện Taskbar.
+* 🎛️ **Tooltip trực quan thông minh:** Hiển thị tên thao tác kèm phím tắt được gán tương ứng theo thời gian thực.
+* 🛡️ **Tích hợp uBlock Origin & Chặn quảng cáo tầng mạng:** Lọc sạch 100% quảng cáo video và popup YouTube.
+* ⚡ **Sửa triệt để các lỗi hiển thị & Tối ưu hiệu năng phát nhạc.**
 
 ---
 
 ## 💻 Yêu cầu hệ thống
 
 * **Hệ điều hành:** Windows 10 / Windows 11 (64-bit).
-* **Runtime:** Đã đóng gói sẵn .NET 9 Runtime (Self-contained, không cần cài đặt thêm gì).
-* **WebView2 Runtime:** Microsoft Edge WebView2 (mặc định đã có sẵn trên Windows 10/11).
+* **Runtime:** Microsoft .NET 9 Desktop Runtime & WebView2 Runtime.
 
 ---
 
