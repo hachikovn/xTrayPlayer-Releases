@@ -6,10 +6,11 @@ Kho lưu trữ và phát hành chính thức các phiên bản cài đặt của
 
 ## 📥 Tải về phiên bản mới nhất: v1.1.3
 
-| Phiên bản | Định dạng | Tải trực tiếp |
-| :--- | :--- | :--- |
-| **Bản Di Động (Portable)** | .exe | [Tải xuống trong mục Releases](https://github.com/hachikovn/xTrayPlayer-Releases/releases/latest) |
-| **Gói Đầy Đủ (Full Package)** | .zip | [Tải xuống trong mục Releases](https://github.com/hachikovn/xTrayPlayer-Releases/releases/latest) |
+| Phiên bản | Định dạng | Dung lượng | Tải trực tiếp |
+| :--- | :--- | :--- | :--- |
+| **Bản Cài Đặt Tự Động (Setup)** | .exe | ~5.2 MB | [Tải xTrayPlayer_Setup_v1.1.3.exe](https://github.com/hachikovn/xTrayPlayer-Releases/releases/download/v1.1.3/xTrayPlayer_Setup_v1.1.3.exe) |
+| **Bản Di Động (Portable)** | .exe | ~5.6 MB | [Tải xTrayPlayer_Portable_v1.1.3.exe](https://github.com/hachikovn/xTrayPlayer-Releases/releases/download/v1.1.3/xTrayPlayer_Portable_v1.1.3.exe) |
+| **Gói Đầy Đủ (Full Package)** | .zip | ~10.4 MB | [Tải xTrayPlayer_v1.1.3_FullPackage.zip](https://github.com/hachikovn/xTrayPlayer-Releases/releases/download/v1.1.3/xTrayPlayer_v1.1.3_FullPackage.zip) |
 
 ---
 
