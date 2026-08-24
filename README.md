@@ -7,9 +7,9 @@ Kho lưu trữ các bản phát hành chính thức của **xTrayPlayer** — tr
 | Gói | Định dạng | Tải xuống |
 | :--- | :--- | :--- |
 | **Bản cài đặt (Setup)** | `.exe` | [xTrayPlayer_Setup_v1.1.4.exe](https://github.com/hachikovn/xTrayPlayer-Releases/releases/download/v1.1.4/xTrayPlayer_Setup_v1.1.4.exe) |
-| **Bản portable đầy đủ runtime** | `.exe` | [xTrayPlayer_Portable_v1.1.4.exe](https://github.com/hachikovn/xTrayPlayer-Releases/releases/download/v1.1.4/xTrayPlayer_Portable_v1.1.4.exe) |
+| **Bản portable đầy đủ runtime** | `.zip` | [xTrayPlayer_Portable_v1.1.4.zip](https://github.com/hachikovn/xTrayPlayer-Releases/releases/download/v1.1.4/xTrayPlayer_Portable_v1.1.4.zip) |
 
-Khuyến nghị dùng **Setup** để cập nhật bản đang cài. Setup sẽ đóng ứng dụng trước khi ghi đè, yêu cầu quyền UAC khi cần và có tùy chọn mở trang tải WebView2 Runtime chính thức.
+Khuyến nghị dùng **Setup** để cập nhật bản đang cài. Setup sẽ đóng ứng dụng trước khi ghi đè, yêu cầu quyền UAC khi cần và có tùy chọn mở trang tải WebView2 Runtime chính thức. Bản portable là ZIP đầy đủ, chỉ cần giải nén rồi chạy `xTrayPlayer.exe`.
 
 ## ✨ Có gì mới trong v1.1.4?
 
@@ -17,7 +17,7 @@ Khuyến nghị dùng **Setup** để cập nhật bản đang cài. Setup sẽ 
 * 🧪 **Acrylic ổn định hơn:** sửa cách ánh xạ opacity để tint không bị áp dụng hai lần và không che backdrop ngoài ý muốn.
 * 🖥️ **Multi-monitor & Explorer resilience:** phát hiện lại Taskbar sau khi Explorer khởi động lại và tái áp dụng trạng thái.
 * 🔄 **Cập nhật ứng dụng đáng tin cậy hơn:** ưu tiên Setup, tải vào file tạm, kiểm tra SHA-256 khi GitHub cung cấp digest và chỉ khởi chạy Setup sau khi app thoát sạch.
-* 📦 **Gói portable đầy đủ:** đóng gói self-contained .NET 9, native TAP DLL, WebView2 bindings và uBlock Origin assets; không dùng bản publish rút gọn.
+* 📦 **Gói portable đầy đủ:** ZIP self-contained .NET 9 gồm native TAP DLL, WebView2 bindings và uBlock Origin assets; không dùng bản publish rút gọn hoặc single-file thiếu DLL native.
 * 🌐 **WebView2 fallback rõ ràng:** nếu máy chưa có Microsoft Edge WebView2 Runtime, app hướng dẫn người dùng tải từ Microsoft.
 
 ## 🖥️ Yêu cầu hệ thống
