@@ -6,7 +6,7 @@ Kho lưu trữ các bản phát hành chính thức của **xTrayPlayer** — tr
 
 | Gói | Định dạng | Tải xuống |
 | :--- | :--- | :--- |
-| **Bản portable đầy đủ runtime** | `.zip` | [xTrayPlayer_Portable_v1.1.5.zip](https://github.com/hachikovn/xTrayPlayer-Releases/raw/main/xTrayPlayer_Portable_v1.1.5.zip) |
+| **Bản portable đầy đủ runtime** | `.zip` | [xTrayPlayer_Portable_v1.1.5.zip](https://github.com/hachikovn/xTrayPlayer-Releases/releases/download/v1.1.5/xTrayPlayer_Portable_v1.1.5.zip) |
 
 Bản portable là ZIP đầy đủ runtime, chỉ cần giải nén rồi chạy `xTrayPlayer.exe`. Ghi chú phát hành chi tiết: [ReleaseNotes_v1.1.5.md](ReleaseNotes_v1.1.5.md).
 
