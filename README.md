@@ -2,16 +2,24 @@
 
 Kho lưu trữ các bản phát hành chính thức của **xTrayPlayer** — trình phát nhạc, YouTube và Taskbar Widget cho Windows 10/11.
 
-## 📦 Phiên bản mới nhất: v1.1.4
+## 📦 Phiên bản mới nhất: v1.1.5
 
 | Gói | Định dạng | Tải xuống |
 | :--- | :--- | :--- |
-| **Bản cài đặt (Setup)** | `.exe` | [xTrayPlayer_Setup_v1.1.4.exe](https://github.com/hachikovn/xTrayPlayer-Releases/releases/download/v1.1.4/xTrayPlayer_Setup_v1.1.4.exe) |
-| **Bản portable đầy đủ runtime** | `.zip` | [xTrayPlayer_Portable_v1.1.4.zip](https://github.com/hachikovn/xTrayPlayer-Releases/releases/download/v1.1.4/xTrayPlayer_Portable_v1.1.4.zip) |
+| **Bản portable đầy đủ runtime** | `.zip` | [xTrayPlayer_Portable_v1.1.5.zip](https://github.com/hachikovn/xTrayPlayer-Releases/raw/main/xTrayPlayer_Portable_v1.1.5.zip) |
 
-Khuyến nghị dùng **Setup** để cập nhật bản đang cài. Setup sẽ đóng ứng dụng trước khi ghi đè, yêu cầu quyền UAC khi cần và có tùy chọn mở trang tải WebView2 Runtime chính thức. Bản portable là ZIP đầy đủ, chỉ cần giải nén rồi chạy `xTrayPlayer.exe`.
+Bản portable là ZIP đầy đủ runtime, chỉ cần giải nén rồi chạy `xTrayPlayer.exe`. Ghi chú phát hành chi tiết: [ReleaseNotes_v1.1.5.md](ReleaseNotes_v1.1.5.md).
 
-## ✨ Có gì mới trong v1.1.4?
+## ✨ Có gì mới trong v1.1.5?
+
+* ⚡ **Menu nhanh:** thay nút Cài đặt trên Widget, hỗ trợ bật/tắt visualizer, chọn vị trí, đủ kiểu sóng và bảng màu, Equalizer, Cài đặt và Thông tin ứng dụng.
+* 🎨 **Tùy biến visualizer:** 12 kiểu sóng và 12 màu, áp dụng ngay cho Widget và visualizer phủ Taskbar/Desktop.
+* 🫥 **Widget trong suốt:** caption đổi theo trạng thái để nhận biết lệnh chuyển nền rõ ràng hơn.
+* 🎛️ **Mini mode:** chọn các nút phụ muốn hiển thị và xem preview mô phỏng Taskbar.
+* 🖥️ **Ổn định vị trí:** cải thiện đổi màn hình/DPI, chuyển Mini mode và thao tác click-kéo.
+* 🔊 **Sóng âm:** cải thiện bắt tín hiệu Bluetooth và âm lượng theo phiên phát của trình duyệt.
+
+## 📦 Nội dung kế thừa từ v1.1.4
 
 * 🎨 **Taskbar Appearance:** hỗ trợ Clear, Solid và Acrylic trên Windows 11 qua XAML Diagnostics TAP; giữ nguyên mô hình single-owner.
 * 🧪 **Acrylic ổn định hơn:** sửa cách ánh xạ opacity để tint không bị áp dụng hai lần và không che backdrop ngoài ý muốn.
