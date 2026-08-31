@@ -2,15 +2,23 @@
 
 Kho lưu trữ các bản phát hành chính thức của **xTrayPlayer** — trình phát nhạc, YouTube và Taskbar Widget cho Windows 10/11.
 
-## 📦 Phiên bản mới nhất: v1.1.5
+## 📦 Phiên bản mới nhất: v1.1.6
 
 | Gói | Định dạng | Tải xuống |
 | :--- | :--- | :--- |
-| **Bản portable đầy đủ runtime** | `.zip` | [xTrayPlayer_Portable_v1.1.5.zip](https://github.com/hachikovn/xTrayPlayer-Releases/releases/download/v1.1.5/xTrayPlayer_Portable_v1.1.5.zip) |
+| **Bản cài đặt đầy đủ runtime** | `.exe` | [xTrayPlayer_Setup_v1.1.6.exe](https://github.com/hachikovn/xTrayPlayer-Releases/releases/download/v1.1.6/xTrayPlayer_Setup_v1.1.6.exe) |
+| **Bản portable đầy đủ runtime** | `.zip` | [xTrayPlayer_Portable_v1.1.6.zip](https://github.com/hachikovn/xTrayPlayer-Releases/releases/download/v1.1.6/xTrayPlayer_Portable_v1.1.6.zip) |
 
-Bản portable là ZIP đầy đủ runtime, chỉ cần giải nén rồi chạy `xTrayPlayer.exe`. Ghi chú phát hành chi tiết: [ReleaseNotes_v1.1.5.md](ReleaseNotes_v1.1.5.md).
+Bản Setup được khuyến nghị để cập nhật bản đang cài. Bản portable là ZIP đầy đủ runtime, chỉ cần giải nén rồi chạy `xTrayPlayer.exe`. Ghi chú phát hành chi tiết: [ReleaseNotes_v1.1.6.md](ReleaseNotes_v1.1.6.md).
 
-## ✨ Có gì mới trong v1.1.5?
+## ✨ Có gì mới trong v1.1.6?
+
+* ⬇️ **Tải YouTube:** hiển thị lựa chọn Video, Audio và phụ đề/transcript; hỗ trợ tải riêng nhiều file hoặc ghép Video + Audio.
+* 🎬 **Tải nhanh trong trình duyệt:** nút **Tải về** trên video đang phát, với mục **Chất lượng tốt nhất** và các định dạng cụ thể.
+* 🖱️ **Visualizer click-through:** không giành focus hoặc che control Widget/Taskbar; tự khôi phục sau reposition, đổi z-order và đổi màn hình.
+* 🧾 **Tên file nhất quán:** *Tiêu đề – YouTube media ID – Quality*.
+
+## 📦 Nội dung kế thừa từ v1.1.5
 
 * ⚡ **Menu nhanh:** thay nút Cài đặt trên Widget, hỗ trợ bật/tắt visualizer, chọn vị trí, đủ kiểu sóng và bảng màu, Equalizer, Cài đặt và Thông tin ứng dụng.
 * 🎨 **Tùy biến visualizer:** 12 kiểu sóng và 12 màu, áp dụng ngay cho Widget và visualizer phủ Taskbar/Desktop.
